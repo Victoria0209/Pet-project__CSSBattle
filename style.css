@@ -1,0 +1,148 @@
+.container {
+    display: inline-block;
+    margin: 5PX;
+    overflow: hidden;
+}
+
+.main1 {
+    background: #293462;
+    width: 500px;
+    height: 500px;
+    display: flex
+}
+
+.circle1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #FFF1C1;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.mountains1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 250px solid #FE5F55;
+
+    top: 87px;
+    left: -15px;
+}
+
+.mountains2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 250px solid #FE5F55;
+
+    top: 190px;
+    right: 0px;
+}
+
+.main2 {
+    background: #191919;
+    width: 500px;
+    height: 500px;
+    display: flex
+}
+
+.semicircle {
+    position: relative;
+    width: 220px;
+    height: 290px;
+    border-radius: 50% 50% 10% 10%;
+    background: #F2AD43;
+    margin: auto;
+    overflow: hidden;
+}
+
+.semicircle1 {
+    position: absolute;
+    background: #824B20;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    bottom: -150px;
+    left: 80px;
+    z-index: 2;
+}
+
+.semicircle2 {
+    position: absolute;
+    background: #E08027;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    bottom: -150px;
+    right: 82px;
+    z-index: 1;
+}
+
+.circle2 {
+    position: absolute;
+    background: #FFF58F;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 140px;
+    right: 68px;
+    z-index: 0;
+}
+
+
+.main3 {
+    background: #6592CF;
+    width: 500px;
+    height: 500px;
+    display: flex
+}
+
+.block1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #243D83;
+    margin: auto;
+    border-radius: 0 0 10% 10%;
+    left: 125px;
+    top: 55px;
+}
+
+.window1 {
+    position: relative;
+    background-color: #EEB850;
+    width: 68px;
+    height: 75px;
+    top: 124px;
+    left: 65px;
+    z-index: 1;
+    border-radius: 10px 10px 0 0;
+}
+.window2 {
+    position: relative;
+    background-color: #EEB850;
+    width: 146px;
+    height: 13px;
+    top: -43px;
+    left: 28px;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.roof {
+    position: relative;
+    width: 0px;
+    height: 0px;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 150px solid #243D83;
+    top: 90px;
+    right: 127px;
+}
